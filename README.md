@@ -1,6 +1,9 @@
 # reference-website
 1. Naming convention for all filenames, paths and folders
-- The naming conventions for all filenames should be lowercase, no spaces and dashes are fine. Folder naming convention should be similar to filenames. For paths, the folders, assets and files should be inside the root folder so they can be easily linked inside any .html files
+- The naming conventions for all filenames should be lowercase, no spaces and dashes 
+  are fine. Folder naming convention should be similar to filenames. For paths, the 
+  folders, assets and files should be inside the root folder so they can be easily 
+  linked inside any .html files
     `index.html` 
 
 2. Best practices for commit messages
@@ -16,11 +19,11 @@
 
 5. Explain or demonstrate commonly used html tags/elements.
 - <h1>This is heading 1</h1>
-   <h2>This is heading 2</h2>
-   <h3>This is heading 3</h3>
-   <h4>This is heading 4</h4>
-   <h5>This is heading 5</h5>
-   <h6>this is heading 6</h6>
+- <h2>This is heading 2</h2>
+- <h3>This is heading 3</h3>
+- <h4>This is heading 4</h4>
+- <h5>This is heading 5</h5>
+- <h6>this is heading 6</h6>
 
 - <p> I am a paragraph </p>
 
@@ -90,10 +93,11 @@ term, title</i>
    document.</span>
 - <small>this element represents side comments and small print</small>
 
-7. Explain why accessibility is important and also explain the accessibility properties like.
+7. Explain why accessibility is important and also explain the accessibility 
+   properties like.
 - including users with disabilities,
-will have an ideal experience and can
-access the information equally.
+  will have an ideal experience and can
+  access the information equally.
 
 - <landmark-roles> ARIA has a set of landmark roles
    to help those using screen readers
@@ -113,10 +117,10 @@ access the information equally.
 - <what-is-CSS> Cascading Style Sheets is the
    language we use to control the
    appearance of our HTML pages.
-<head>
-<title>introduction to CSS<title>
-<link rel="stylesheet" href="/css/style.css"/>
-</head>
+   <head>
+   <title>introduction to CSS<title>
+   <link rel="stylesheet" href="/css/style.css"/>
+   </head>
 
 9. What is the difference between CSS property and value (write explanation and an 
    example code.

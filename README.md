@@ -6,7 +6,11 @@
 - 
 3. What is HTML?
 - Hypertext markup language is the coding language used to describe the content of websites.
-4. Explain or demonstrate commonly used html tags/elements.
+4. Proper syntax for HTML tags
+-  {When writing HTML, the tags used
+to define the purpose of the
+text follow a specific syntax.}
+5. Explain or demonstrate commonly used html tags/elements.
 
 <h1>This is heading 1</h1>
 <h2>This is heading 2</h2>
@@ -82,6 +86,22 @@ up a part of a text, or part of a
 document.</span>
 13. <small>this element represents side comments and small print</small>
 
+7. Explain why accessibility is important and also explain the accessibility properties like.
+
+- including users with disabilities,
+will have an ideal experience and can
+access the information equally.
+
+1. <landmark-roles> ARIA has a set of landmark roles
+to help those using screen readers
+to jump directly to specific
+sections within our sites.
+2. <Aira-labels> is used to provide an accessible name or label for an element that does not have an inherent label or that needs a more descriptive label than its content provides
+3. <image-alternative-texts> The alt attribute has two purposes,
+To describe the photo if it doesn’t download
+and To describe the photo to someone who cannot
+see the image, maybe someone using a screen
+reader.
 
 
 

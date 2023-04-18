@@ -5,51 +5,51 @@
 2. Best practices for commit messages
 - 
 3. What is HTML?
-- Hypertext markup language is the coding language used to describe the content of websites.
+- Hypertext markup language is the coding language used to describe the content of 
+  websites.
 4. Proper syntax for HTML tags
 -  {When writing HTML, the tags used
-to define the purpose of the
-text follow a specific syntax.}
+   to define the purpose of the
+   text follow a specific syntax.}
 5. Explain or demonstrate commonly used html tags/elements.
 
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>this is heading 6</h6>
+1. <h1>This is heading 1</h1>
+   <h2>This is heading 2</h2>
+   <h3>This is heading 3</h3>
+   <h4>This is heading 4</h4>
+   <h5>This is heading 5</h5>
+   <h6>this is heading 6</h6>
 
-<p> I am a paragraph </p>
+2. <p> I am a paragraph </p>
 
-<ul>Unordered list</ul>
+3. <ul>Unordered list</ul>
 
-<ol>Ordered list</ol>
+4. <ol>Ordered list</ol>
 
-<dl>Description list</dl>
+5. <dl>Description list</dl>
 
-<img src="gfg.PNG" alt="GeeksforGeeks Image">
+6. <img src="gfg.PNG" alt="GeeksforGeeks Image">
 
-<q>Used to mark up quotes embedded in
-other elements like a paragraph.</q>
+7. <q>Used to mark up quotes embedded in
+  other elements like a paragraph.</q>
 
-<blockquote>For large stand alone quotes.</blockquote>
+8. <blockquote>For large stand alone quotes.</blockquote>
 
-<cite>Marking the source of the quote. </cite>
+9. <cite>Marking the source of the quote. </cite>
 
-<em>Emphasis</em>
+10. <em>Emphasis</em>
 
-<strong>Lots of emphasis, strong
+11. <strong>Lots of emphasis, strong
 importance or urgency</strong>
 
-<b>A keyword</b>
+12. <b>A keyword</b>
 
-<i>Another language, technical
+13. <i>Another language, technical
 term, title</i>
 
-<small>Example</small>
+14. <small>Example</small>
 
 6. Explain block Elements and also explain the list of block elements and why they are used from below
-
 - Block elements are used within the body of an HTML document and can contain inline elements, or other block-level elements.
 
 1. <html> is the code that is used to structure a web page and its content.</html>
@@ -87,7 +87,6 @@ document.</span>
 13. <small>this element represents side comments and small print</small>
 
 7. Explain why accessibility is important and also explain the accessibility properties like.
-
 - including users with disabilities,
 will have an ideal experience and can
 access the information equally.
@@ -161,6 +160,7 @@ element that can have height and width values
 
 21. What sub-property we use to divide elements in CSS Grid properties?
 - to divid elements in CSS grid properties you would use without .s <.div .class.="grind-container">
+
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
 - to fractionally divide the elements width in css grid you would use the fr unit . witch would look like grind-template-columns: 1fr 1fr 1fr; other units you can use are ex, px, %, and em
 

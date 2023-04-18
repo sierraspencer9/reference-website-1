@@ -127,3 +127,59 @@ A value is given to the property following a colon
  pushing the edge of the box away from the content.
 Outside the box is the margin that transparent
 layer pushing other boxes away.
+
+13. What are different types of display properties?
+- (inline) this allows element on the same line, height
+and width properties have no effect
+ (block) this forces the element to be on its own line
+regardless of its width
+ (inline block) this element is formatted as an inline
+element that can have height and width values
+
+14. Write a brief explanation of flexbox property
+- this is a one dimensional layout pattern that makes it easy to design flexible and effective layouts.
+
+15. What are different types of flexbox properties and what is the major difference between them?
+- flex-end,center,space-between,space-around,space-evenly all of these properties do somthing different things with the spacing of your layout
+
+16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
+- in order for flexbox to work the parent element must be givin a display of flex in css code. the children then must be givin properties sush as algin content, justify content. in order to be displayed in the flex form. these are all written in the css code.
+
+17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
+- to add a flexbox to a section your code would look like 
+.container {
+    display: flex;
+}
+18. What is CSS grid property?
+- two dimensional layout system that lets you lay content out in rows and columns
+
+19. Write the parent and two sub-properties used for CSS Grid Property.
+- the parent property for css grid is display and sub properties are grid and inline grid.
+
+20. What is the difference between display: flex and display: grid?
+- Flexbox is designed for one-dimensional layouts, and Grid for two-dimensional layouts.
+
+21. What sub-property we use to divide elements in CSS Grid properties?
+- to divid elements in CSS grid properties you would use without .s <.div .class.="grind-container">
+22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
+- to fractionally divide the elements width in css grid you would use the fr unit . witch would look like grind-template-columns: 1fr 1fr 1fr; other units you can use are ex, px, %, and em
+
+23. What is the area property in CSS grid we use for the child elements?
+- we use grid: row and grid; column for child elements
+
+24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+- wrapper {
+  display: grid; 
+}
+25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file
+- Find a font in google fonts and click it  then, click + Select this style. On the right side, you'll see a container with the name "Selected family".
+Click Embed and choose <link> or import depending on where you need to add the font in HTML or CSS
+Copy and paste the codes you need
+
+font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+div {
+  font-family: myFirstFont;}

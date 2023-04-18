@@ -103,8 +103,27 @@ and To describe the photo to someone who cannot
 see the image, maybe someone using a screen
 reader.
 
+8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+- <what-is-CSS> Cascading Style Sheets is the
+language we use to control the
+appearance of our HTML pages.
+<head>
+<title>introduction to CSS<title>
+<link rel="stylesheet" href="/css/style.css"/>
+</head>
 
+9. What is the difference between CSS property and value (write explanation and an example code.
+- Properties are inside curly brackets that take the from of words like color,font weight and background color
+A value is given to the property following a colon
 
+10. Why do we use border-box property in CSS?
+- border-box is used to tell the browser to account for any border and padding in the values you set for the elements width and height.
 
+11. Explain different type of ways we can add spacing to an element
+- to add an indent on a block element you use the CSS text-indent property. 
 
-
+12. What is the main difference between margin and padding?
+- the diffrents is that padding is the outside content that is
+ pushing the edge of the box away from the content.
+Outside the box is the margin that transparent
+layer pushing other boxes away.

@@ -48,43 +48,39 @@ term, title</i>
 
 - Block elements are used within the body of an HTML document and can contain inline elements, or other block-level elements.
 
-
+1. <html> is the code that is used to structure a web page and its content.</html>
+2. <head>The head of an HTML document is a part whose content is not displayed in the browser on page loading.</head>
+3. <body>The tag in HTML is used to define the main content present inside an HTML page</body>
 4. <header>The header is the introductory content
 usually at the top of the page and would
 include a logo or company name and main
 navigation.</header>
-
-11. <footer> lists of links, copyright information,
-extra information about the company,
-terms and services.</footer>
-
-7. <section>Section is used to wrap around related
-pieces of content. Usually each section
-has its own heading.</section>
-
-8. <article>blog post, product
-card, interactive widget</article>
-
 5. <nav>This element represents a section of a
 page whose purpose is to provide
 navigation links, either within the
 current document or to other documents.</nav>
-
+6. <main>The main element wraps around the main
+content of the page. It’s only used once
+per page and it tells the browser that
+this is where the main content is.</main>
+7. <section>Section is used to wrap around related
+pieces of content. Usually each section
+has its own heading.</section>
+8. <article>blog post, product
+card, interactive widget</article>
+9. <div>Block element used to group
+elements together.</div>
 10. <aside>The aside element represents a portion of
 a document whose content is only
 indirectly related to the document's main
 content.</aside>
-
-9. <div>Block element used to group
-elements together.</div>
-
+11. <footer> lists of links, copyright information,
+extra information about the company,
+terms and services.</footer>
 12. <span>An inline container used to mark
 up a part of a text, or part of a
 document.</span>
-
-<html> is the code that is used to structure a web page and its content.</html>
-
-
+13. <small>this element represents side comments and small print</small>
 
 
 
